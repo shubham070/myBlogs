@@ -39,7 +39,7 @@ function App() {
       document.getElementById("signInDiv"),
       {theme: "outline", size:"large"}
     );
-  },[isUserLogin,handleCallBackResponse]);
+  },[isUserLogin]);
 
   return (
     <div>
