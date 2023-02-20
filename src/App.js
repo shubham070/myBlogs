@@ -2,7 +2,7 @@ import './App.css';
 import Home from './Home';
 import Navbar from './Navbar/Navbar';
 import Create from './Create';
-import {BrowserRouter , Route, Router, Routes} from 'react-router-dom';
+import {BrowserRouter , Route, Routes} from 'react-router-dom';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
 import { useEffect, useState } from 'react';
@@ -39,8 +39,6 @@ function App() {
       document.getElementById("signInDiv"),
       {theme: "outline", size:"large"}
     );
-
-
   },[isUserLogin]);
 
   return (
